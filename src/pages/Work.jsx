@@ -9,9 +9,19 @@ const inView = (delay = 0) => ({
 
 const ROLES = [
   {
+    title: 'Data & Analytics Lead',
+    company: 'Scottish Power',
+    period: 'Oct 2025 — Present',
+    location: 'Glasgow, UK',
+    bullets: [
+      'Leading data strategy for ScottishPower Digital — growing the data function, improving data-driven decision making, and modernising data infrastructure.',
+    ],
+    tags: ['Data Strategy', 'Data Leadership', 'Analytics', 'Data Infrastructure'],
+  },
+  {
     title: 'Data Scientist',
     company: 'Scottish Power',
-    period: 'Feb 2023 — Present',
+    period: 'Feb 2023 — Sep 2025',
     location: 'Glasgow, UK',
     bullets: [
       'Led data strategy for Customer Experience and Services, championing platform innovation across Azure Synapse, Power BI, and Google Analytics.',
@@ -92,6 +102,7 @@ const PROJECTS = [
 ]
 
 const AWARDS = [
+  { title: 'Best Performance Award', org: 'ScottishPower Customer Business', year: '2025' },
   { title: 'Data Leadership Certification', org: 'MIT Professional Education', year: '2024' },
   { title: 'DigiWin Award × 2 — Top Performance', org: 'ScottishPower Digital', year: '2024' },
   { title: 'Runner-Up, AWS × IBM Gen AI Hackathon', org: 'AWS & IBM, London', year: '2024' },
