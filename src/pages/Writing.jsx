@@ -75,8 +75,11 @@ export default function Writing() {
         {/* Posts list */}
         <div className="writing-list">
           {POSTS.map((post, i) => (
-            <motion.article
+            <motion.a
               key={i}
+              href="https://medium.com/@sirvp"
+              target="_blank"
+              rel="noopener noreferrer"
               className="writing-item"
               {...inView(i * 0.06)}
             >
@@ -87,7 +90,7 @@ export default function Writing() {
                 <p className="writing-item__desc">{post.desc}</p>
               </div>
               <span className="writing-item__read label">{post.readTime}</span>
-            </motion.article>
+            </motion.a>
           ))}
         </div>
       </div>

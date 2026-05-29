@@ -50,8 +50,11 @@ export default function Photos() {
       {/* Full-width photo grid */}
       <div className="photo-grid" style={{ padding: '0 3px 5rem' }}>
         {PHOTOS.map((photo, i) => (
-          <motion.div
+          <motion.a
             key={i}
+            href="https://unsplash.com/sir_vp"
+            target="_blank"
+            rel="noopener noreferrer"
             className={`photo-item${photo.wide ? ' photo-item--wide' : ''}`}
             {...inView(i * 0.04)}
           >
@@ -63,7 +66,7 @@ export default function Photos() {
               <p className="photo-item__location">{photo.location}</p>
               <p className="photo-item__date">{photo.date}</p>
             </div>
-          </motion.div>
+          </motion.a>
         ))}
       </div>
     </main>
