@@ -9,8 +9,9 @@ Thumbs.db
 # Vercel
 .vercel
 
-# Node (not used, but just in case)
+# Node
 node_modules/
+dist/
 
 # Local Claude Code settings
 .claude/
